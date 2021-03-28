@@ -1,12 +1,9 @@
 from kivymd.app import MDApp
-
-
-def mahdi():
-    print("You are")
-
+from kivymd.uix.label import MDLabel
 
 class book(MDApp):
     def build(self):
-        return
+        label = MDLabel(text = 'Hello World')
+        return label
 
 book().run()
